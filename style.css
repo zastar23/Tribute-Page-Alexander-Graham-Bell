@@ -8,12 +8,9 @@ html {
     box-sizing: inherit;
     margin: 0;
     padding: 0;
-    width: 100%;
+    
 }
 
-body {
-    background-color: #54A0AB;
-}
 
 
 .header {
@@ -46,19 +43,20 @@ a:hover {
 main {
     background-color: #5475AB;
 }
-.portrait__figure {
-    width: 50%;
-    margin: 0 auto;
-}
 
+
+.portrait__figure {
+    text-align: center;
+}
 .bell__portrait {
-    max-width: 300px;
+    max-width: 12.5rem;
+    width: 10rem;
     border-radius: 40px;
-    border: ridge;  
+    border: ridge;
+    
 }
 
 .portrait__caption {
-    text-align: center;
     font-size: .7rem;
     font-family: monospace;
     color: white;
@@ -73,4 +71,152 @@ main {
     width: 80%;
     margin: 1em auto 1em;
     border-radius: 20px;
+}
+
+
+.early__life__h2 {
+    text-align: center;
+    font-family: monospace;
+    color: white;
+    margin-bottom: 1em;
+    font-size: 1.125rem;
+    
+}
+.early__life__paragraph {
+    text-align: center;
+    padding: .8em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #5F54AB;
+    color: white;
+    width: 80%;
+    margin: 1em auto 1em;
+    border-radius: 20px;
+}
+
+.the__telephone__h2 {
+    text-align: center;
+    margin-bottom: 1em;
+    color: white;
+    font-family: monospace;
+    font-size: 1.125rem;
+}
+
+.telephone__paragraph {
+    text-align: center;
+    margin: 1em auto 1em;
+    padding: .8em;
+    color: white;
+    width: 80%;
+    background-color: #8B54AB;
+    border-radius: 20px;
+}
+.bell__speaking {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.bell__speaking__photo {
+    width: 13rem;
+    max-width: 15rem;
+    border-radius: 40px;
+    border: ridge;
+}
+.phone__caption {
+    text-align: center;
+    color: white;
+    font-size: .7rem;
+}
+.patent__div {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.patent__image {
+    width: 12rem;
+    max-width: 15rem;
+    border-radius: 40px;
+    border: ridge;
+}
+.master__patent__div {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.master__patent {
+    width: 12rem;
+    max-width: 15rem;
+    border-radius: 40px;
+    border: ridge;
+}
+
+.later__inventions__h2 {
+    text-align: center;
+    color: white;
+    font-size: 1.125rem;
+    font-family: monospace;
+    margin: 1em 0;
+}
+
+.later__inventions__paragraph {
+    text-align: center;
+    margin: 1em auto 1em;
+    padding: .8em;
+    color: white;
+    width: 80%;
+    border-radius: 20px;
+    background-color: #AB5474;
+}
+
+.death__h2 {
+    text-align: center;
+    color: white;
+    font-family: monospace;
+    font-size: 1.125rem;
+    margin: 1em 0;
+}
+
+.death__paragraph {
+    text-align: center;
+    margin: 1em auto 1em;
+    padding: .8em;
+    color: white;
+    width: 80%;
+    border-radius: 20px;
+    background-color: #54AB8B;
+}
+
+.footer {
+    background-color: #A0AB54;
+    text-align: center;
+    padding: 1em;
+    color: white;
+}
+
+@media (min-width: 600px) {
+    .nav__list {
+        display: flex;
+        flex-direction: row;
+        gap: 1em;
+        justify-content: space-around;
+    }
+
+    .introduction__div {
+        display: flex;
+        width: 100%;
+    }
+
+    .introduction__paragraph {
+        width: 40%;
+        
+    }
+
+    .bell__portrait {
+        width: max-content;
+    }
+
+    .portrait__figure {
+        margin: 0 auto;
+    }
 }
