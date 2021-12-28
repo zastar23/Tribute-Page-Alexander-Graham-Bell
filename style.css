@@ -201,12 +201,15 @@ main {
         gap: 1em;
         justify-content: space-around;
     }
-
+    .nav__link {
+        font-size: 1.4rem;
+    }
     .title {
         font-size: 3rem;
     }
     .early__life__h2 {
         font-size: 3rem;
+        margin-top: 3em;
     }
 
     .the__telephone__h2 {
@@ -220,22 +223,28 @@ main {
         font-size: 3rem;
     }
     .introduction__div {
-        display: flex;
         width: 100%;
     }
 
     .introduction__paragraph {
         width: 60%;
         font-size: 1.8rem;
+        margin-top: 2em;
+        max-width: 37.5rem;
         
     }
 
     .bell__portrait {
-        width: max-content;
+        width: 25rem;
+        max-width: 40rem;
     }
 
     .portrait__figure {
         margin: 0 auto;
+        width: 100%;
+    }
+    .portrait__caption {
+        font-size: 1.2rem;
     }
 
     .early__life__div {
@@ -311,3 +320,49 @@ main {
 
 }
 
+
+@media (min-width: 1300px) {
+
+    p {
+        font-size: 2rem;
+    }
+    .telephone__paragraph {
+        font-size: 2rem;
+    }
+    .introduction__div {
+        display: flex;
+        align-items: center;
+    }
+
+    .introduction__paragraph {
+        margin-right: 2em;
+    }
+
+    .early__life__div {
+        flex-direction: row;
+    }
+
+    .bell__speaking__photo {
+        width: 40rem;
+        max-width: 60rem;
+    }
+
+    .phone__caption {
+        font-size: 2rem;
+    }
+
+    .patent__image {
+        width: 40rem;
+        max-width: 60rem;
+    }
+
+    .master__patent {
+        width: 40rem;
+        max-width: 60rem;
+    }
+
+    .later__inventions__div {
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }
+}
