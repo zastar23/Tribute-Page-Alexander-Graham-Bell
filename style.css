@@ -8,9 +8,7 @@ html {
     box-sizing: inherit;
     margin: 0;
     padding: 0;
-    
 }
-
 
 
 .header {
@@ -319,7 +317,7 @@ main {
     }
 
 }
-
+/* ====MEDIA QUERRY==== */
 
 @media (min-width: 1300px) {
 
